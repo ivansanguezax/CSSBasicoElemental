@@ -1,0 +1,35 @@
+/* Selector de Elementos */
+
+
+h6{
+    color: coral;
+}
+
+/* Agrupación de Selectores */
+ a{
+    color: green;
+}
+
+ h6{
+    color: hotpink;
+}
+
+/* Clases */
+.titulo1{
+    color: gold;
+}
+.titulo2{
+    color: red;
+}
+
+/* Id */
+#parrafo{
+    color: skyblue;
+}
+
+/* Selector Universal */
+
+*{
+    background: red;
+    color: blue !important; 
+}
