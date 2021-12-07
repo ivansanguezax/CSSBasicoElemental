@@ -1,6 +1,5 @@
 /* Selector de Elementos */
 
-
 h6{
     color: coral;
 }
@@ -31,5 +30,5 @@ h6{
 
 *{
     background: red;
-    color: blue !important; 
+    color: blue; 
 }
