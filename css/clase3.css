@@ -1,0 +1,48 @@
+/* Pseudo-clases */
+
+p:first-child{
+    color: red;
+}
+p:last-child{
+    color: green;
+}
+p:nth-child(5){
+    color: blue;
+}
+
+/* Pseudo-elementos */
+/* 
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+} */
+
+
+.boton{
+    background-color: red;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.boton img{
+    width: 30px;
+}
+.boton:hover{
+    background-color: white;
+    color: red;
+    border: solid red 1px;
+}
+
+.boton:active{
+    background-color: black;
+    color: white;
+}
+.textos{
+    text-align: center; 
+    text-transform: lowercase;  
+}
+.textos a{
+    text-decoration: none;
+}
