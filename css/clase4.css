@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+:root{
+    --RojoClaro : #1E1C59;
+    --fuente: 'Bakbak One', cursive;
+}
+
+
+div{
+    margin: 30px;
+    border: solid red 2px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: var(--RojoClaro);
+    color: rgb(252, 118, 83);
+    font-family: var(--fuente);
+}
+
+body{
+    background: url(../assets/imagen1.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
